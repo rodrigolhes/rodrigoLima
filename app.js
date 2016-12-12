@@ -8,6 +8,7 @@ var routes = require('./routes/index');
 var usuario = require('./routes/usuario');
 var perfil = require('./routes/perfil');
 var aluno = require('./routes/aluno');
+var eleitor = require('./routes/eleitor');
 
 var mongoose = require('mongoose');
 
@@ -55,6 +56,8 @@ app.use(function(req, res, next) {
 app.use('/', routes);
 app.use('/usuario', usuario);
 app.use('/perfil', perfil);
+app.use('/aluno', aluno);
+app.use('/eleitor', eleitor);
 
 
 
