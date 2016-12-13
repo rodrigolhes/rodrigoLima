@@ -9,6 +9,6 @@ var CandidatoSchema = new mongoose.Schema({
     email: String 
 });
 
-module.exports = mongoose.model('Candidato', PartidoSchema);
+module.exports = mongoose.model('Candidato', CandidatoSchema);
 
 
