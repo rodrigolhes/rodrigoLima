@@ -3,7 +3,7 @@ var mongoose = require('mongoose');
 var PerfilSchema = new mongoose.Schema({
   nome: String,
   perfil:{
-         _id:string,
+         _id:String,
   	 nome:String
   }
 });
